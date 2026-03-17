@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useScroll, useTransform, motion, useMotionValueEvent } from "framer-motion";
 
-const FRAME_COUNT = 200;
+const FRAME_COUNT = 104;
 
 export default function HeroCanvas() {
   const containerRef = useRef<HTMLDivElement>(null);
